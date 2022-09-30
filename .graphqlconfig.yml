@@ -1,0 +1,15 @@
+projects:
+  myfeedpostamplify:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: Todo
+        docsFilePath: graphql
+extensions:
+  amplify:
+    version: 3

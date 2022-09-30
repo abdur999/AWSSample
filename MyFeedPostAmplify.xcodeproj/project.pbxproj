@@ -7,15 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA2F78B384D76C2940D2B59 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E29E1FF4B4EF5D448E611AF /* AmplifyModels.swift */; };
+		18B65635B7020B03ED88B35A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = CC2577B7FC30E30199A26F2F /* awsconfiguration.json */; };
+		20B6BCCB049E387EA7F669DE /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211F875C8F2ABA15625E6376 /* Todo.swift */; };
+		420557E19BB5AED925503C0D /* Pods_MyFeedPostAmplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D3931E94A7C74609AC7210 /* Pods_MyFeedPostAmplify.framework */; };
+		560A5A9DFAD319573D39AE6E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 939836D20F11089F58D56B57 /* amplifyconfiguration.json */; };
+		AE094D2F28D8771800F27AC4 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE094D2E28D8771800F27AC4 /* PostVC.swift */; };
+		AE12E36828D47F8C007A010F /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E36728D47F8C007A010F /* AWSAPIPlugin */; };
+		AE12E36A28D47F8C007A010F /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E36928D47F8C007A010F /* AWSCognitoAuthPlugin */; };
+		AE12E36C28D47F8C007A010F /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E36B28D47F8C007A010F /* AWSDataStorePlugin */; };
+		AE12E36E28D47F8C007A010F /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E36D28D47F8C007A010F /* AWSLocationGeoPlugin */; };
+		AE12E37028D47F8C007A010F /* AWSPinpointAnalyticsPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E36F28D47F8C007A010F /* AWSPinpointAnalyticsPlugin */; };
+		AE12E37228D47F8C007A010F /* AWSPluginsCore in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E37128D47F8C007A010F /* AWSPluginsCore */; };
+		AE12E37428D47F8C007A010F /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E37328D47F8C007A010F /* AWSS3StoragePlugin */; };
+		AE12E37628D47F8C007A010F /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AE12E37528D47F8C007A010F /* Amplify */; };
+		AE12E37A28D48F36007A010F /* LogInSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12E37928D48F36007A010F /* LogInSignupVC.swift */; };
+		AE12E37C28D4A006007A010F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12E37B28D4A006007A010F /* LoginVC.swift */; };
+		AE12E37E28D4A019007A010F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12E37D28D4A019007A010F /* SignUpVC.swift */; };
+		AE2A384028DA783E0027D04A /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A383F28DA783E0027D04A /* DashboardVC.swift */; };
+		AE2A384228DA83950027D04A /* RetriveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A384128DA83950027D04A /* RetriveVC.swift */; };
+		AE2A384428DA8E600027D04A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A384328DA8E5F0027D04A /* Extension.swift */; };
+		AE2A384628DAB9F00027D04A /* UIViewController+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A384528DAB9F00027D04A /* UIViewController+ActivityIndicator.swift */; };
+		AE2A384A28DB13190027D04A /* client_550893669873-vjg8pi6rj2urna48hnl3f56ivle8p24i.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE2A384928DB13190027D04A /* client_550893669873-vjg8pi6rj2urna48hnl3f56ivle8p24i.apps.googleusercontent.com.plist */; };
+		AE2E211F28D861A800E66410 /* FeedPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2E211E28D861A800E66410 /* FeedPostVC.swift */; };
+		AE2E212128D8683600E66410 /* FeedPostTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2E212028D8683600E66410 /* FeedPostTVCell.swift */; };
 		AE3C376C28D07F40007BDFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C376B28D07F40007BDFB7 /* AppDelegate.swift */; };
 		AE3C376E28D07F40007BDFB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C376D28D07F40007BDFB7 /* SceneDelegate.swift */; };
 		AE3C377028D07F40007BDFB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C376F28D07F40007BDFB7 /* ViewController.swift */; };
 		AE3C377328D07F40007BDFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3C377128D07F40007BDFB7 /* Main.storyboard */; };
 		AE3C377528D07F42007BDFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3C377428D07F42007BDFB7 /* Assets.xcassets */; };
 		AE3C377828D07F42007BDFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3C377628D07F42007BDFB7 /* LaunchScreen.storyboard */; };
+		AE3D281D28D17D89007C5EB5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE3D281C28D17D89007C5EB5 /* amplifyconfiguration.json */; };
+		AE3D281F28D17D94007C5EB5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE3D281E28D17D94007C5EB5 /* awsconfiguration.json */; };
+		AE3D282128D19A34007C5EB5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE3D282028D19A34007C5EB5 /* amplifyconfiguration.json */; };
+		AE3D282328D19A3D007C5EB5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AE3D282228D19A3D007C5EB5 /* awsconfiguration.json */; };
+		AE7DFC1228D849CD00E9C8FF /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFC1128D849CD00E9C8FF /* ViewControllerExtension.swift */; };
+		AE7DFC1428D84AFD00E9C8FF /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFC1328D84AFD00E9C8FF /* AppConstant.swift */; };
+		AE7DFC1728D84E2900E9C8FF /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFC1628D84E2900E9C8FF /* OtpVC.swift */; };
+		AE7DFC1928D84ECE00E9C8FF /* OTPStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFC1828D84ECD00E9C8FF /* OTPStackView.swift */; };
+		AE7DFC1B28D84EDF00E9C8FF /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7DFC1A28D84EDF00E9C8FF /* OTPTextField.swift */; };
+		AEC9E0E428D0B8A500BF46B5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AEC9E0E328D0B8A500BF46B5 /* amplifyconfiguration.json */; };
+		B26B74D969B4A4EADFE713A6 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794495CAB036DEC2B5D9842 /* Todo+Schema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211F875C8F2ABA15625E6376 /* Todo.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Todo.swift; path = amplify/generated/models/Todo.swift; sourceTree = "<group>"; };
+		55D3931E94A7C74609AC7210 /* Pods_MyFeedPostAmplify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFeedPostAmplify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E29E1FF4B4EF5D448E611AF /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		7794495CAB036DEC2B5D9842 /* Todo+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Todo+Schema.swift"; path = "amplify/generated/models/Todo+Schema.swift"; sourceTree = "<group>"; };
+		939836D20F11089F58D56B57 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		97B61170874F8A29DEDADE62 /* Pods-MyFeedPostAmplify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFeedPostAmplify.debug.xcconfig"; path = "Target Support Files/Pods-MyFeedPostAmplify/Pods-MyFeedPostAmplify.debug.xcconfig"; sourceTree = "<group>"; };
+		AE094D2E28D8771800F27AC4 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		AE12E37928D48F36007A010F /* LogInSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSignupVC.swift; sourceTree = "<group>"; };
+		AE12E37B28D4A006007A010F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AE12E37D28D4A019007A010F /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		AE2A383F28DA783E0027D04A /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		AE2A384128DA83950027D04A /* RetriveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveVC.swift; sourceTree = "<group>"; };
+		AE2A384328DA8E5F0027D04A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AE2A384528DAB9F00027D04A /* UIViewController+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		AE2A384928DB13190027D04A /* client_550893669873-vjg8pi6rj2urna48hnl3f56ivle8p24i.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_550893669873-vjg8pi6rj2urna48hnl3f56ivle8p24i.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		AE2A384D28E17A040027D04A /* MyFeedPostAmplify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFeedPostAmplify.entitlements; sourceTree = "<group>"; };
+		AE2E211E28D861A800E66410 /* FeedPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostVC.swift; sourceTree = "<group>"; };
+		AE2E212028D8683600E66410 /* FeedPostTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostTVCell.swift; sourceTree = "<group>"; };
 		AE3C376828D07F40007BDFB7 /* MyFeedPostAmplify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFeedPostAmplify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3C376B28D07F40007BDFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3C376D28D07F40007BDFB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +77,18 @@
 		AE3C377428D07F42007BDFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3C377728D07F42007BDFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3C377928D07F42007BDFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3D281C28D17D89007C5EB5 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		AE3D281E28D17D94007C5EB5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		AE3D282028D19A34007C5EB5 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		AE3D282228D19A3D007C5EB5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		AE7DFC1128D849CD00E9C8FF /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		AE7DFC1328D84AFD00E9C8FF /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		AE7DFC1628D84E2900E9C8FF /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		AE7DFC1828D84ECD00E9C8FF /* OTPStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPStackView.swift; sourceTree = "<group>"; };
+		AE7DFC1A28D84EDF00E9C8FF /* OTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		AEC9E0E328D0B8A500BF46B5 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		CC2577B7FC30E30199A26F2F /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		E6C875626E9E1E9E4A856E59 /* Pods-MyFeedPostAmplify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFeedPostAmplify.release.xcconfig"; path = "Target Support Files/Pods-MyFeedPostAmplify/Pods-MyFeedPostAmplify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +96,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE12E37628D47F8C007A010F /* Amplify in Frameworks */,
+				AE12E36828D47F8C007A010F /* AWSAPIPlugin in Frameworks */,
+				AE12E37228D47F8C007A010F /* AWSPluginsCore in Frameworks */,
+				AE12E37028D47F8C007A010F /* AWSPinpointAnalyticsPlugin in Frameworks */,
+				AE12E36E28D47F8C007A010F /* AWSLocationGeoPlugin in Frameworks */,
+				420557E19BB5AED925503C0D /* Pods_MyFeedPostAmplify.framework in Frameworks */,
+				AE12E36A28D47F8C007A010F /* AWSCognitoAuthPlugin in Frameworks */,
+				AE12E36C28D47F8C007A010F /* AWSDataStorePlugin in Frameworks */,
+				AE12E37428D47F8C007A010F /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25D6C6A7699D5D38E8E455FD /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				6E29E1FF4B4EF5D448E611AF /* AmplifyModels.swift */,
+				7794495CAB036DEC2B5D9842 /* Todo+Schema.swift */,
+				211F875C8F2ABA15625E6376 /* Todo.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
+		59E82999193BA3AD6485BE96 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				CC2577B7FC30E30199A26F2F /* awsconfiguration.json */,
+				939836D20F11089F58D56B57 /* amplifyconfiguration.json */,
+				AEC9E0E328D0B8A500BF46B5 /* amplifyconfiguration.json */,
+				AE3D281E28D17D94007C5EB5 /* awsconfiguration.json */,
+				AE3D281C28D17D89007C5EB5 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		AE2A384728DADEFB0027D04A /* Extensition */ = {
+			isa = PBXGroup;
+			children = (
+				AE2A384328DA8E5F0027D04A /* Extension.swift */,
+				AE2A384528DAB9F00027D04A /* UIViewController+ActivityIndicator.swift */,
+				AE7DFC1128D849CD00E9C8FF /* ViewControllerExtension.swift */,
+			);
+			path = Extensition;
+			sourceTree = "<group>";
+		};
+		AE2A384828DADF730027D04A /* Not In Use */ = {
+			isa = PBXGroup;
+			children = (
+				AE3C376F28D07F40007BDFB7 /* ViewController.swift */,
+				AE12E37928D48F36007A010F /* LogInSignupVC.swift */,
+			);
+			path = "Not In Use";
+			sourceTree = "<group>";
+		};
 		AE3C375F28D07F40007BDFB7 = {
 			isa = PBXGroup;
 			children = (
 				AE3C376A28D07F40007BDFB7 /* MyFeedPostAmplify */,
 				AE3C376928D07F40007BDFB7 /* Products */,
+				C92B42398ED37D1E0C6F3155 /* Pods */,
+				DC1ACF99C7D6CEE61969D102 /* Frameworks */,
+				59E82999193BA3AD6485BE96 /* AmplifyConfig */,
+				25D6C6A7699D5D38E8E455FD /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +175,56 @@
 		AE3C376A28D07F40007BDFB7 /* MyFeedPostAmplify */ = {
 			isa = PBXGroup;
 			children = (
-				AE3C376B28D07F40007BDFB7 /* AppDelegate.swift */,
+				AE2A384D28E17A040027D04A /* MyFeedPostAmplify.entitlements */,
+				AE3D282028D19A34007C5EB5 /* amplifyconfiguration.json */,
+				AE3D282228D19A3D007C5EB5 /* awsconfiguration.json */,
+				AE2A384828DADF730027D04A /* Not In Use */,
+				AE2A384728DADEFB0027D04A /* Extensition */,
 				AE3C376D28D07F40007BDFB7 /* SceneDelegate.swift */,
-				AE3C376F28D07F40007BDFB7 /* ViewController.swift */,
+				AE3C376B28D07F40007BDFB7 /* AppDelegate.swift */,
+				AE7DFC1328D84AFD00E9C8FF /* AppConstant.swift */,
+				AE12E37B28D4A006007A010F /* LoginVC.swift */,
+				AE12E37D28D4A019007A010F /* SignUpVC.swift */,
+				AE2A383F28DA783E0027D04A /* DashboardVC.swift */,
+				AE2E212028D8683600E66410 /* FeedPostTVCell.swift */,
+				AE2E211E28D861A800E66410 /* FeedPostVC.swift */,
+				AE2A384128DA83950027D04A /* RetriveVC.swift */,
+				AE094D2E28D8771800F27AC4 /* PostVC.swift */,
+				AE7DFC1528D84DFA00E9C8FF /* OTP */,
 				AE3C377128D07F40007BDFB7 /* Main.storyboard */,
 				AE3C377428D07F42007BDFB7 /* Assets.xcassets */,
 				AE3C377628D07F42007BDFB7 /* LaunchScreen.storyboard */,
 				AE3C377928D07F42007BDFB7 /* Info.plist */,
+				AE2A384928DB13190027D04A /* client_550893669873-vjg8pi6rj2urna48hnl3f56ivle8p24i.apps.googleusercontent.com.plist */,
 			);
 			path = MyFeedPostAmplify;
+			sourceTree = "<group>";
+		};
+		AE7DFC1528D84DFA00E9C8FF /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				AE7DFC1628D84E2900E9C8FF /* OtpVC.swift */,
+				AE7DFC1828D84ECD00E9C8FF /* OTPStackView.swift */,
+				AE7DFC1A28D84EDF00E9C8FF /* OTPTextField.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		C92B42398ED37D1E0C6F3155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97B61170874F8A29DEDADE62 /* Pods-MyFeedPostAmplify.debug.xcconfig */,
+				E6C875626E9E1E9E4A856E59 /* Pods-MyFeedPostAmplify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC1ACF99C7D6CEE61969D102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D3931E94A7C74609AC7210 /* Pods_MyFeedPostAmplify.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +234,27 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3C377C28D07F42007BDFB7 /* Build configuration list for PBXNativeTarget "MyFeedPostAmplify" */;
 			buildPhases = (
+				17E66ACC10543912F5E6EE37 /* [CP] Check Pods Manifest.lock */,
 				AE3C376428D07F40007BDFB7 /* Sources */,
 				AE3C376528D07F40007BDFB7 /* Frameworks */,
 				AE3C376628D07F40007BDFB7 /* Resources */,
+				C0F3FDEEFBC2AFBF0276735F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyFeedPostAmplify;
+			packageProductDependencies = (
+				AE12E36728D47F8C007A010F /* AWSAPIPlugin */,
+				AE12E36928D47F8C007A010F /* AWSCognitoAuthPlugin */,
+				AE12E36B28D47F8C007A010F /* AWSDataStorePlugin */,
+				AE12E36D28D47F8C007A010F /* AWSLocationGeoPlugin */,
+				AE12E36F28D47F8C007A010F /* AWSPinpointAnalyticsPlugin */,
+				AE12E37128D47F8C007A010F /* AWSPluginsCore */,
+				AE12E37328D47F8C007A010F /* AWSS3StoragePlugin */,
+				AE12E37528D47F8C007A010F /* Amplify */,
+			);
 			productName = MyFeedPostAmplify;
 			productReference = AE3C376828D07F40007BDFB7 /* MyFeedPostAmplify.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +283,9 @@
 				Base,
 			);
 			mainGroup = AE3C375F28D07F40007BDFB7;
+			packageReferences = (
+				AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = AE3C376928D07F40007BDFB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,13 +300,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3D282328D19A3D007C5EB5 /* awsconfiguration.json in Resources */,
+				AE2A384A28DB13190027D04A /* client_550893669873-vjg8pi6rj2urna48hnl3f56ivle8p24i.apps.googleusercontent.com.plist in Resources */,
+				AE3D281F28D17D94007C5EB5 /* awsconfiguration.json in Resources */,
 				AE3C377828D07F42007BDFB7 /* LaunchScreen.storyboard in Resources */,
+				AEC9E0E428D0B8A500BF46B5 /* amplifyconfiguration.json in Resources */,
 				AE3C377528D07F42007BDFB7 /* Assets.xcassets in Resources */,
+				AE3D281D28D17D89007C5EB5 /* amplifyconfiguration.json in Resources */,
 				AE3C377328D07F40007BDFB7 /* Main.storyboard in Resources */,
+				18B65635B7020B03ED88B35A /* awsconfiguration.json in Resources */,
+				AE3D282128D19A34007C5EB5 /* amplifyconfiguration.json in Resources */,
+				560A5A9DFAD319573D39AE6E /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17E66ACC10543912F5E6EE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFeedPostAmplify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F3FDEEFBC2AFBF0276735F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFeedPostAmplify/Pods-MyFeedPostAmplify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFeedPostAmplify/Pods-MyFeedPostAmplify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyFeedPostAmplify/Pods-MyFeedPostAmplify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE3C376428D07F40007BDFB7 /* Sources */ = {
@@ -139,8 +364,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3C377028D07F40007BDFB7 /* ViewController.swift in Sources */,
+				AE094D2F28D8771800F27AC4 /* PostVC.swift in Sources */,
+				AE7DFC1B28D84EDF00E9C8FF /* OTPTextField.swift in Sources */,
+				AE2A384628DAB9F00027D04A /* UIViewController+ActivityIndicator.swift in Sources */,
+				AE7DFC1928D84ECE00E9C8FF /* OTPStackView.swift in Sources */,
+				AE2E212128D8683600E66410 /* FeedPostTVCell.swift in Sources */,
+				AE7DFC1428D84AFD00E9C8FF /* AppConstant.swift in Sources */,
+				AE12E37E28D4A019007A010F /* SignUpVC.swift in Sources */,
 				AE3C376C28D07F40007BDFB7 /* AppDelegate.swift in Sources */,
+				AE12E37C28D4A006007A010F /* LoginVC.swift in Sources */,
+				AE12E37A28D48F36007A010F /* LogInSignupVC.swift in Sources */,
+				AE7DFC1728D84E2900E9C8FF /* OtpVC.swift in Sources */,
+				AE2A384228DA83950027D04A /* RetriveVC.swift in Sources */,
+				AE2E211F28D861A800E66410 /* FeedPostVC.swift in Sources */,
 				AE3C376E28D07F40007BDFB7 /* SceneDelegate.swift in Sources */,
+				AE2A384028DA783E0027D04A /* DashboardVC.swift in Sources */,
+				AE2A384428DA8E600027D04A /* Extension.swift in Sources */,
+				0CA2F78B384D76C2940D2B59 /* AmplifyModels.swift in Sources */,
+				B26B74D969B4A4EADFE713A6 /* Todo+Schema.swift in Sources */,
+				AE7DFC1228D849CD00E9C8FF /* ViewControllerExtension.swift in Sources */,
+				20B6BCCB049E387EA7F669DE /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,11 +525,15 @@
 		};
 		AE3C377D28D07F42007BDFB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B61170874F8A29DEDADE62 /* Pods-MyFeedPostAmplify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyFeedPostAmplify/MyFeedPostAmplify.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NDPK9M9Z34;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyFeedPostAmplify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,8 +546,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MyFeedPostAmplify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluecoppertech.MyFeedPostAmplify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,11 +557,15 @@
 		};
 		AE3C377E28D07F42007BDFB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C875626E9E1E9E4A856E59 /* Pods-MyFeedPostAmplify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyFeedPostAmplify/MyFeedPostAmplify.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NDPK9M9Z34;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyFeedPostAmplify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,8 +578,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MyFeedPostAmplify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluecoppertech.MyFeedPostAmplify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -356,6 +609,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE12E36728D47F8C007A010F /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		AE12E36928D47F8C007A010F /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		AE12E36B28D47F8C007A010F /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		AE12E36D28D47F8C007A010F /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSLocationGeoPlugin;
+		};
+		AE12E36F28D47F8C007A010F /* AWSPinpointAnalyticsPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPinpointAnalyticsPlugin;
+		};
+		AE12E37128D47F8C007A010F /* AWSPluginsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSPluginsCore;
+		};
+		AE12E37328D47F8C007A010F /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		AE12E37528D47F8C007A010F /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE12E36628D47F8C007A010F /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE3C376028D07F40007BDFB7 /* Project object */;
 }
